@@ -1,0 +1,232 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 380" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0e17" />
+      <stop offset="50%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#050811" />
+    </linearGradient>
+
+    <linearGradient id="primary-glow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#06b6d4" />
+      <stop offset="50%" stop-color="#3b82f6" />
+      <stop offset="100%" stop-color="#8b5cf6" />
+    </linearGradient>
+
+    <linearGradient id="accent-glow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ec4899" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0.2" />
+    </linearGradient>
+
+    <linearGradient id="card-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.75" />
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.9" />
+    </linearGradient>
+
+    <!-- Filters -->
+    <filter id="glow-blur" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <filter id="soft-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <filter id="card-shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#000000" flood-opacity="0.6" />
+    </filter>
+
+    <!-- Grid Pattern -->
+    <pattern id="grid-pattern" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1e293b" stroke-width="0.7" stroke-opacity="0.5" />
+      <circle cx="40" cy="40" r="1" fill="#38bdf8" fill-opacity="0.2" />
+    </pattern>
+
+    <style>
+      @keyframes pulse-flow {
+        0% { stroke-dashoffset: 240; }
+        100% { stroke-dashoffset: 0; }
+      }
+      @keyframes reverse-flow {
+        0% { stroke-dashoffset: 0; }
+        100% { stroke-dashoffset: 240; }
+      }
+      @keyframes pulse-circle {
+        0%, 100% { transform: scale(1); opacity: 0.8; }
+        50% { transform: scale(1.3); opacity: 1; filter: drop-shadow(0 0 10px #38bdf8); }
+      }
+      @keyframes float-slow {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-8px); }
+      }
+      @keyframes float-reverse {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(8px); }
+      }
+      @keyframes shimmer-sweep {
+        0% { stop-color: #06b6d4; }
+        50% { stop-color: #a855f7; }
+        100% { stop-color: #06b6d4; }
+      }
+      .flow-line {
+        stroke-dasharray: 8, 12;
+        animation: pulse-flow 6s linear infinite;
+      }
+      .flow-line-fast {
+        stroke-dasharray: 6, 10;
+        animation: pulse-flow 3.5s linear infinite;
+      }
+      .flow-line-reverse {
+        stroke-dasharray: 8, 14;
+        animation: reverse-flow 5s linear infinite;
+      }
+      .pulse-node {
+        transform-origin: center;
+        animation: pulse-circle 3s ease-in-out infinite;
+      }
+      .floating-group-1 {
+        animation: float-slow 6s ease-in-out infinite;
+      }
+      .floating-group-2 {
+        animation: float-reverse 7s ease-in-out infinite;
+      }
+      .text-title {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 800;
+        letter-spacing: -0.5px;
+      }
+      .text-sub {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 500;
+        letter-spacing: 0.3px;
+      }
+      .text-badge {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 600;
+        font-size: 11px;
+        letter-spacing: 0.5px;
+      }
+    </style>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="1200" height="380" rx="16" fill="url(#bg-grad)" />
+  <rect width="1200" height="380" rx="16" fill="url(#grid-pattern)" />
+
+  <!-- Background Radial Ambient Orbs -->
+  <circle cx="150" cy="90" r="180" fill="#06b6d4" opacity="0.12" filter="url(#glow-blur)" />
+  <circle cx="1050" cy="120" r="220" fill="#8b5cf6" opacity="0.14" filter="url(#glow-blur)" />
+  <circle cx="600" cy="340" r="160" fill="#3b82f6" opacity="0.1" filter="url(#glow-blur)" />
+
+  <!-- DYNAMIC BACKGROUND ELEMENTS: Automated Pipelines & Event Flows -->
+  <g class="floating-group-1" opacity="0.75">
+    <!-- Top-left to bottom-center flow -->
+    <path d="M 40,80 Q 220,40 380,120 T 680,80 T 1150,110" fill="none" stroke="#0ea5e9" stroke-width="2.5" class="flow-line-fast" filter="url(#soft-glow)" opacity="0.7" />
+    <path d="M 60,290 Q 280,360 480,270 T 880,310 T 1160,250" fill="none" stroke="#8b5cf6" stroke-width="2" class="flow-line-reverse" filter="url(#soft-glow)" opacity="0.6" />
+    <path d="M 80,170 C 260,260 380,40 600,160 S 960,60 1140,190" fill="none" stroke="#10b981" stroke-width="1.8" class="flow-line" opacity="0.5" />
+  </g>
+
+  <!-- Dynamic Event Flow Nodes (Sensors, Webhooks, Triggers, Actions) -->
+  <g class="floating-group-2">
+    <!-- Webhook trigger node -->
+    <g transform="translate(110, 110)">
+      <circle r="18" fill="#0f172a" stroke="#06b6d4" stroke-width="2" />
+      <circle r="7" fill="#06b6d4" class="pulse-node" />
+      <text x="0" y="32" fill="#94a3b8" font-size="10" font-family="sans-serif" text-anchor="middle">WEBHOOK</text>
+    </g>
+
+    <!-- Event Router node -->
+    <g transform="translate(1080, 95)">
+      <circle r="20" fill="#0f172a" stroke="#8b5cf6" stroke-width="2" />
+      <circle r="8" fill="#a855f7" class="pulse-node" />
+      <text x="0" y="34" fill="#94a3b8" font-size="10" font-family="sans-serif" text-anchor="middle">EVENT BUS</text>
+    </g>
+
+    <!-- Orchestrator node -->
+    <g transform="translate(140, 270)">
+      <circle r="16" fill="#0f172a" stroke="#10b981" stroke-width="2" />
+      <circle r="6" fill="#10b981" class="pulse-node" />
+      <text x="0" y="30" fill="#94a3b8" font-size="10" font-family="sans-serif" text-anchor="middle">DAG QUEUE</text>
+    </g>
+
+    <!-- Worker node -->
+    <g transform="translate(1060, 260)">
+      <circle r="16" fill="#0f172a" stroke="#f59e0b" stroke-width="2" />
+      <circle r="6" fill="#f59e0b" class="pulse-node" />
+      <text x="0" y="30" fill="#94a3b8" font-size="10" font-family="sans-serif" text-anchor="middle">AI WORKER</text>
+    </g>
+  </g>
+
+  <!-- Dynamic floating pill indicators in background -->
+  <g class="floating-group-1" opacity="0.65">
+    <rect x="75" y="40" width="105" height="26" rx="13" fill="#1e293b" stroke="#334155" stroke-width="1" />
+    <text x="127" y="57" fill="#38bdf8" text-anchor="middle" class="text-badge">⚡ Realtime</text>
+
+    <rect x="1010" y="42" width="115" height="26" rx="13" fill="#1e293b" stroke="#334155" stroke-width="1" />
+    <text x="1067" y="59" fill="#c084fc" text-anchor="middle" class="text-badge">🔄 Self-Hosted</text>
+
+    <rect x="80" y="325" width="125" height="26" rx="13" fill="#1e293b" stroke="#334155" stroke-width="1" />
+    <text x="142" y="342" fill="#34d399" text-anchor="middle" class="text-badge">🛡️ Privacy-First</text>
+
+    <rect x="995" y="318" width="135" height="26" rx="13" fill="#1e293b" stroke="#334155" stroke-width="1" />
+    <text x="1062" y="335" fill="#fbbf24" text-anchor="middle" class="text-badge">🚀 Cloud &amp; Edge</text>
+  </g>
+
+  <!-- FOREGROUND HERO CARD: Keeps Title and Subtitle Completely Protected & Legible -->
+  <g transform="translate(230, 48)" filter="url(#card-shadow)">
+    <!-- Glassmorphic Main Card -->
+    <rect width="740" height="275" rx="20" fill="url(#card-grad)" stroke="#334155" stroke-width="1.2" />
+    <rect width="740" height="4" rx="2" fill="url(#primary-glow)" />
+
+    <!-- Top Badge Pill -->
+    <g transform="translate(260, 26)">
+      <rect width="220" height="26" rx="13" fill="#0f172a" stroke="#38bdf8" stroke-width="1" />
+      <circle cx="16" cy="13" r="4" fill="#38bdf8" />
+      <text x="120" y="17" fill="#e0f2fe" text-anchor="middle" class="text-badge">CURATED ECOSYSTEM 2026</text>
+    </g>
+
+    <!-- Main Title -->
+    <text x="370" y="98" fill="#f8fafc" text-anchor="middle" font-size="36" class="text-title">
+      Awesome Event-Driven Automation
+    </text>
+
+    <!-- Glowing Accent Gradient Sub-bar -->
+    <rect x="250" y="116" width="240" height="3" rx="1.5" fill="url(#primary-glow)" filter="url(#soft-glow)" />
+
+    <!-- Subtitle -->
+    <text x="370" y="148" fill="#94a3b8" text-anchor="middle" font-size="16" class="text-sub">
+      The definitive directory of open-source engines, self-hosted orchestrators &amp; enterprise iPaaS
+    </text>
+
+    <!-- Tag Pills inside Foreground Card -->
+    <g transform="translate(65, 182)">
+      <!-- Pill 1: Event Triggers -->
+      <g transform="translate(0, 0)">
+        <rect width="136" height="34" rx="17" fill="#0f172a" stroke="#0ea5e9" stroke-width="1.2" />
+        <text x="68" y="21" fill="#38bdf8" text-anchor="middle" class="text-badge">⚡ Event Triggers</text>
+      </g>
+      <!-- Pill 2: Workflow DAGs -->
+      <g transform="translate(148, 0)">
+        <rect width="144" height="34" rx="17" fill="#0f172a" stroke="#8b5cf6" stroke-width="1.2" />
+        <text x="72" y="21" fill="#c084fc" text-anchor="middle" class="text-badge">🔄 Visual Pipelines</text>
+      </g>
+      <!-- Pill 3: AI Agents -->
+      <g transform="translate(304, 0)">
+        <rect width="134" height="34" rx="17" fill="#0f172a" stroke="#ec4899" stroke-width="1.2" />
+        <text x="67" y="21" fill="#f472b6" text-anchor="middle" class="text-badge">🤖 AI Agent Flows</text>
+      </g>
+      <!-- Pill 4: Open-Source -->
+      <g transform="translate(450, 0)">
+        <rect width="160" height="34" rx="17" fill="#0f172a" stroke="#10b981" stroke-width="1.2" />
+        <text x="80" y="21" fill="#34d399" text-anchor="middle" class="text-badge">⭐ Top Open-Source</text>
+      </g>
+    </g>
+
+    <!-- Bottom Metadata row -->
+    <text x="370" y="250" fill="#64748b" text-anchor="middle" font-size="12" class="text-sub">
+      📡 Webhooks • 📨 Message Brokers • ⏱️ Cron Schedules • 🔗 7,000+ App Connectors
+    </text>
+  </g>
+</svg>
