@@ -3,11 +3,13 @@
 </p>
 
 <p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Event-Driven-Automation/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Event-Driven-Automation?style=social&color=white" alt="Repo Stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Event-Driven-Automation/forks"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Event-Driven-Automation?style=social&color=white" alt="Repo Forks" /></a>
-  <a href="https://github.com/sindresorhus/awesome"><img src="https://awesome.re/badge.svg" alt="Awesome" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://awesome.re/badge.svg" alt="Awesome" /></a>
   <img src="https://img.shields.io/badge/PRs-Welcome-brightgreen.svg" alt="PRs Welcome" />
   <img src="https://img.shields.io/badge/License-CC0--1.0-blue.svg" alt="License" />
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 </p>
 
 <h1 align="center">⚡ Awesome Event-Driven Automation</h1>
@@ -32,6 +34,8 @@
   - [🔍 Detailed Project Breakdown](#-detailed-project-breakdown)
 - [🧠 Architectural Selection Matrix](#-architectural-selection-matrix)
 - [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support & Community](#-support--community)
+- [⭐ Star History](#--star-history)
 - [⚖️ License & Disclaimer](#️-license--disclaimer)
 
 ---
@@ -255,6 +259,29 @@ Contributions are warmly encouraged! Help keep this directory current, accurate,
    - For SaaS tools: include verified starting tier pricing, free tier limits, and estimated company valuation/ARR.
    - For open-source tools: include official repo link, accurate star badge (`style=social&color=white`), license type, and tech stack.
 4. 🚀 **Submit a Pull Request** with a concise description of your changes.
+
+---
+
+## 💖 Support & Community
+
+Thank you for exploring and utilizing this curated directory! If you found this repository helpful or inspiring:
+
+- ⭐ **Star this repository** to help others discover it.
+- 🍴 **Fork it** and contribute your own discoveries or maintain your custom flavor.
+- 📢 **Share it** with your fellow engineers, teammates, and communities on X (Twitter), LinkedIn, or Discord.
+- ☕ **Buy Me a Coffee / Sponsor**: If you'd like to support ongoing curation, open-source benchmarks, and maintenance, you can sponsor through the [GitHub Sponsors Dashboard](https://github.com/sponsors/ishandutta2007):
+
+<p align="center">
+  <a href="https://github.com/sponsors/ishandutta2007">
+    <img src="https://img.shields.io/badge/Sponsor-%E2%9D%A4-ea4aaa?style=for-the-badge&logo=github-sponsors" alt="Sponsor on GitHub" />
+  </a>
+</p>
+
+---
+
+##  Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Event-Driven-Automation&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Event-Driven-Automation&type=date&legend=top-left)
 
 ---
 
