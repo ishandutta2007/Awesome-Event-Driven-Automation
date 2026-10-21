@@ -30,7 +30,7 @@
 - [🌐 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
 - [☁️ Top SaaS & Hosted Automation Platforms](#️-top-saas--hosted-automation-platforms)
 - [💻 Open-Source & Self-Hosted Automation Engines](#-open-source--self-hosted-automation-engines)
-  - [⭐ Ranked by GitHub Stars](#-ranked-by-github-stars)
+  - [⭐ Ranked by GitHub_Stars](#-ranked-by-github-stars)
   - [🔍 Detailed Project Breakdown](#-detailed-project-breakdown)
 - [🧠 Architectural Selection Matrix](#-architectural-selection-matrix)
 - [🤝 How to Contribute](#-how-to-contribute)
@@ -91,35 +91,35 @@ The following table compares leading commercial SaaS and hosted event-driven aut
 
 Open-source and self-hosted automation platforms give engineering teams total control over their data pipelines, eliminate restrictive per-task pricing, and allow direct hosting on Kubernetes, Docker, or bare metal.
 
-### ⭐ Ranked by GitHub Stars
+### ⭐ Ranked by GitHub_Stars
 
-The list below is strictly **sorted in descending order by GitHub Stars**:
+The list below is strictly **sorted in descending order by GitHub_Stars**:
 
-| # | 📦 Repository & Name | ⭐ GitHub Star Count Badge | 📜 License | 🛠️ Primary Tech Stack | 🎯 Best For |
+| # | 📦 Repository & Name | ⭐ GitHub Stars_Count Badge | 📜 License | 🛠️ Primary Tech Stack | 🎯 Best For |
 | :-: | :--- | :--- | :--- | :--- | :--- |
-| **1** | **[n8n](https://github.com/n8n-io/n8n)** | [![GitHub stars](https://img.shields.io/github/stars/n8n-io/n8n?style=social&color=white)](https://github.com/n8n-io/n8n/stargazers) | Fair-code (Sustainable Use) | Node.js, TypeScript, Vue | Enterprise-ready visual workflow builder & AI LangChain agents |
-| **2** | **[Huginn](https://github.com/huginn/huginn)** | [![GitHub stars](https://img.shields.io/github/stars/huginn/huginn?style=social&color=white)](https://github.com/huginn/huginn/stargazers) | MIT | Ruby, Rails | Autonomous monitoring agents, web scraping, and event alerts |
-| **3** | **[Apache Airflow](https://github.com/apache/airflow)** | [![GitHub stars](https://img.shields.io/github/stars/apache/airflow?style=social&color=white)](https://github.com/apache/airflow/stargazers) | Apache 2.0 | Python | Complex data engineering DAGs & event-driven ETL orchestration |
-| **4** | **[Kestra](https://github.com/kestra-io/kestra)** | [![GitHub stars](https://img.shields.io/github/stars/kestra-io/kestra?style=social&color=white)](https://github.com/kestra-io/kestra/stargazers) | Apache 2.0 | Java, Micronaut, Vue | Declarative YAML-first event-driven workflow orchestration |
-| **5** | **[Activepieces](https://github.com/activepieces/activepieces)** | [![GitHub stars](https://img.shields.io/github/stars/activepieces/activepieces?style=social&color=white)](https://github.com/activepieces/activepieces/stargazers) | MIT | TypeScript, Node.js, Angular | True MIT-licensed open-source Zapier alternative with AI tools |
-| **6** | **[Prefect](https://github.com/PrefectHQ/prefect)** | [![GitHub stars](https://img.shields.io/github/stars/PrefectHQ/prefect?style=social&color=white)](https://github.com/PrefectHQ/prefect/stargazers) | Apache 2.0 | Python | Dynamic Pythonic event pipelines and background orchestration |
-| **7** | **[Temporal](https://github.com/temporalio/temporal)** | [![GitHub stars](https://img.shields.io/github/stars/temporalio/temporal?style=social&color=white)](https://github.com/temporalio/temporal/stargazers) | MIT | Go, Java, TypeScript, Python | Fault-tolerant durable microservice orchestration & state machines |
-| **8** | **[Node-RED](https://github.com/node-red/node-red)** | [![GitHub stars](https://img.shields.io/github/stars/node-red/node-red?style=social&color=white)](https://github.com/node-red/node-red/stargazers) | Apache 2.0 | JavaScript, Node.js | IoT sensor wiring, edge device triggers, and MQTT message buses |
-| **9** | **[Windmill](https://github.com/windmill-labs/windmill)** | [![GitHub stars](https://img.shields.io/github/stars/windmill-labs/windmill?style=social&color=white)](https://github.com/windmill-labs/windmill/stargazers) | AGPLv3 / Apache 2.0 | Rust, TypeScript, Svelte, Python | Turning multi-language scripts into workflows, UIs, and endpoints |
-| **10** | **[Argo Workflows](https://github.com/argoproj/argo-workflows)** | [![GitHub stars](https://img.shields.io/github/stars/argoproj/argo-workflows?style=social&color=white)](https://github.com/argoproj/argo-workflows/stargazers) | Apache 2.0 | Go, Kubernetes CRDs | Cloud-native containerized workflow pipelines for Kubernetes |
-| **11** | **[Trigger.dev](https://github.com/triggerdotdev/trigger.dev)** | [![GitHub stars](https://img.shields.io/github/stars/triggerdotdev/trigger.dev?style=social&color=white)](https://github.com/triggerdotdev/trigger.dev/stargazers) | Apache 2.0 | TypeScript, Node.js | Full-stack TypeScript background jobs with real-time streaming |
-| **12** | **[Dagster](https://github.com/dagster-io/dagster)** | [![GitHub stars](https://img.shields.io/github/stars/dagster-io/dagster?style=social&color=white)](https://github.com/dagster-io/dagster/stargazers) | Apache 2.0 | Python, TypeScript | Asset-oriented event-driven data orchestrator with testability |
-| **13** | **[Automatisch](https://github.com/automatisch/automatisch)** | [![GitHub stars](https://img.shields.io/github/stars/automatisch/automatisch?style=social&color=white)](https://github.com/automatisch/automatisch/stargazers) | AGPLv3 | JavaScript, Node.js, React | GDPR-compliant self-hosted business workflow automation |
-| **14** | **[Rundeck](https://github.com/rundeck/rundeck)** | [![GitHub stars](https://img.shields.io/github/stars/rundeck/rundeck?style=social&color=white)](https://github.com/rundeck/rundeck/stargazers) | Apache 2.0 | Java, Groovy | Ops runbook automation, scheduled node jobs, and incident response |
-| **15** | **[Inngest](https://github.com/inngest/inngest)** | [![GitHub stars](https://img.shields.io/github/stars/inngest/inngest?style=social&color=white)](https://github.com/inngest/inngest/stargazers) | Apache 2.0 | Go, TypeScript | Serverless event-driven step functions, delays, and queues |
-| **16** | **[Platypush](https://github.com/blacklight/platypush)** | [![GitHub stars](https://img.shields.io/github/stars/blacklight/platypush?style=social&color=white)](https://github.com/blacklight/platypush/stargazers) | MIT | Python | Multi-protocol IoT and home automation engine with webhooks |
+| **1** | **[n8n](https://github.com/n8n-io/n8n)** | [![GitHub_Stars](https://img.shields.io/github/stars/n8n-io/n8n?style=social&color=white)](https://github.com/n8n-io/n8n/stargazers) | Fair-code (Sustainable Use) | Node.js, TypeScript, Vue | Enterprise-ready visual workflow builder & AI LangChain agents |
+| **2** | **[Huginn](https://github.com/huginn/huginn)** | [![GitHub_Stars](https://img.shields.io/github/stars/huginn/huginn?style=social&color=white)](https://github.com/huginn/huginn/stargazers) | MIT | Ruby, Rails | Autonomous monitoring agents, web scraping, and event alerts |
+| **3** | **[Apache Airflow](https://github.com/apache/airflow)** | [![GitHub_Stars](https://img.shields.io/github/stars/apache/airflow?style=social&color=white)](https://github.com/apache/airflow/stargazers) | Apache 2.0 | Python | Complex data engineering DAGs & event-driven ETL orchestration |
+| **4** | **[Kestra](https://github.com/kestra-io/kestra)** | [![GitHub_Stars](https://img.shields.io/github/stars/kestra-io/kestra?style=social&color=white)](https://github.com/kestra-io/kestra/stargazers) | Apache 2.0 | Java, Micronaut, Vue | Declarative YAML-first event-driven workflow orchestration |
+| **5** | **[Activepieces](https://github.com/activepieces/activepieces)** | [![GitHub_Stars](https://img.shields.io/github/stars/activepieces/activepieces?style=social&color=white)](https://github.com/activepieces/activepieces/stargazers) | MIT | TypeScript, Node.js, Angular | True MIT-licensed open-source Zapier alternative with AI tools |
+| **6** | **[Prefect](https://github.com/PrefectHQ/prefect)** | [![GitHub_Stars](https://img.shields.io/github/stars/PrefectHQ/prefect?style=social&color=white)](https://github.com/PrefectHQ/prefect/stargazers) | Apache 2.0 | Python | Dynamic Pythonic event pipelines and background orchestration |
+| **7** | **[Temporal](https://github.com/temporalio/temporal)** | [![GitHub_Stars](https://img.shields.io/github/stars/temporalio/temporal?style=social&color=white)](https://github.com/temporalio/temporal/stargazers) | MIT | Go, Java, TypeScript, Python | Fault-tolerant durable microservice orchestration & state machines |
+| **8** | **[Node-RED](https://github.com/node-red/node-red)** | [![GitHub_Stars](https://img.shields.io/github/stars/node-red/node-red?style=social&color=white)](https://github.com/node-red/node-red/stargazers) | Apache 2.0 | JavaScript, Node.js | IoT sensor wiring, edge device triggers, and MQTT message buses |
+| **9** | **[Windmill](https://github.com/windmill-labs/windmill)** | [![GitHub_Stars](https://img.shields.io/github/stars/windmill-labs/windmill?style=social&color=white)](https://github.com/windmill-labs/windmill/stargazers) | AGPLv3 / Apache 2.0 | Rust, TypeScript, Svelte, Python | Turning multi-language scripts into workflows, UIs, and endpoints |
+| **10** | **[Argo Workflows](https://github.com/argoproj/argo-workflows)** | [![GitHub_Stars](https://img.shields.io/github/stars/argoproj/argo-workflows?style=social&color=white)](https://github.com/argoproj/argo-workflows/stargazers) | Apache 2.0 | Go, Kubernetes CRDs | Cloud-native containerized workflow pipelines for Kubernetes |
+| **11** | **[Trigger.dev](https://github.com/triggerdotdev/trigger.dev)** | [![GitHub_Stars](https://img.shields.io/github/stars/triggerdotdev/trigger.dev?style=social&color=white)](https://github.com/triggerdotdev/trigger.dev/stargazers) | Apache 2.0 | TypeScript, Node.js | Full-stack TypeScript background jobs with real-time streaming |
+| **12** | **[Dagster](https://github.com/dagster-io/dagster)** | [![GitHub_Stars](https://img.shields.io/github/stars/dagster-io/dagster?style=social&color=white)](https://github.com/dagster-io/dagster/stargazers) | Apache 2.0 | Python, TypeScript | Asset-oriented event-driven data orchestrator with testability |
+| **13** | **[Automatisch](https://github.com/automatisch/automatisch)** | [![GitHub_Stars](https://img.shields.io/github/stars/automatisch/automatisch?style=social&color=white)](https://github.com/automatisch/automatisch/stargazers) | AGPLv3 | JavaScript, Node.js, React | GDPR-compliant self-hosted business workflow automation |
+| **14** | **[Rundeck](https://github.com/rundeck/rundeck)** | [![GitHub_Stars](https://img.shields.io/github/stars/rundeck/rundeck?style=social&color=white)](https://github.com/rundeck/rundeck/stargazers) | Apache 2.0 | Java, Groovy | Ops runbook automation, scheduled node jobs, and incident response |
+| **15** | **[Inngest](https://github.com/inngest/inngest)** | [![GitHub_Stars](https://img.shields.io/github/stars/inngest/inngest?style=social&color=white)](https://github.com/inngest/inngest/stargazers) | Apache 2.0 | Go, TypeScript | Serverless event-driven step functions, delays, and queues |
+| **16** | **[Platypush](https://github.com/blacklight/platypush)** | [![GitHub_Stars](https://img.shields.io/github/stars/blacklight/platypush?style=social&color=white)](https://github.com/blacklight/platypush/stargazers) | MIT | Python | Multi-protocol IoT and home automation engine with webhooks |
 
 ---
 
 ### 🔍 Detailed Project Breakdown
 
 #### 1. 🥇 [n8n](https://github.com/n8n-io/n8n)
-[![GitHub stars](https://img.shields.io/github/stars/n8n-io/n8n?style=social&color=white)](https://github.com/n8n-io/n8n/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/n8n-io/n8n?style=social&color=white)](https://github.com/n8n-io/n8n/stargazers)
 - **Architecture**: Visual node-based workflow designer powered by Node.js and TypeScript.
 - **Triggers**: Webhooks, polling schedules, message brokers (Kafka, RabbitMQ), IMAP email, and 500+ pre-built integration nodes.
 - **AI Capabilities**: Deep LangChain integration featuring native nodes for autonomous LLM agents, vector stores (Pinecone, Qdrant), and conversational memory.
@@ -127,105 +127,105 @@ The list below is strictly **sorted in descending order by GitHub Stars**:
 - **Deployment**: Docker Compose, Kubernetes with Helm, or single binary via npm. Scalable horizontally via Redis queue mode and PostgreSQL.
 
 #### 2. 🥈 [Huginn](https://github.com/huginn/huginn)
-[![GitHub stars](https://img.shields.io/github/stars/huginn/huginn?style=social&color=white)](https://github.com/huginn/huginn/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/huginn/huginn?style=social&color=white)](https://github.com/huginn/huginn/stargazers)
 - **Architecture**: Agent-based automated event watcher written in Ruby on Rails. Often described as your own private IFTTT or Yahoo! Pipes.
 - **Triggers**: Web scraping (XPath/CSS selectors), RSS/Atom feeds, weather events, email monitors, and outgoing webhook calls.
 - **Licensing**: MIT License.
 - **Deployment**: Native Docker image with MySQL/PostgreSQL backends. Ideal for set-and-forget monitoring, web scrapers, and alerting daemons.
 
 #### 3. 🥉 [Apache Airflow](https://github.com/apache/airflow)
-[![GitHub stars](https://img.shields.io/github/stars/apache/airflow?style=social&color=white)](https://github.com/apache/airflow/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/apache/airflow?style=social&color=white)](https://github.com/apache/airflow/stargazers)
 - **Architecture**: Industry standard batch and event-driven data orchestrator using Directed Acyclic Graphs (DAGs) defined purely in Python code.
 - **Triggers**: Airflow 2.x and 3.0 include native event-driven scheduling (deferrable operators, SQS/Kafka/PubSub triggers, datasets).
 - **Licensing**: Apache 2.0 License.
 - **Deployment**: Celery, KubernetesExecutor, or managed services (AWS MWAA, Google Cloud Composer).
 
 #### 4. ⚡ [Kestra](https://github.com/kestra-io/kestra)
-[![GitHub stars](https://img.shields.io/github/stars/kestra-io/kestra?style=social&color=white)](https://github.com/kestra-io/kestra/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/kestra-io/kestra?style=social&color=white)](https://github.com/kestra-io/kestra/stargazers)
 - **Architecture**: Modern, event-driven declarative orchestrator built on Java/Micronaut, configured entirely in declarative YAML.
 - **Triggers**: Real-time webhooks, schedules, file watchers, Kafka topics, and external database state alterations.
 - **Licensing**: Apache 2.0 License.
 - **Deployment**: Single container, Docker Compose, or Kubernetes. Includes built-in code editor, topology charts, and 500+ plugin integrations.
 
 #### 5. 🧩 [Activepieces](https://github.com/activepieces/activepieces)
-[![GitHub stars](https://img.shields.io/github/stars/activepieces/activepieces?style=social&color=white)](https://github.com/activepieces/activepieces/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/activepieces/activepieces?style=social&color=white)](https://github.com/activepieces/activepieces/stargazers)
 - **Architecture**: Modern, lightweight, no-code workflow builder written entirely in TypeScript with an Angular frontend.
 - **Triggers**: Webhooks, polling schedules, form submissions, and 400+ community pieces (integrations).
 - **Licensing**: True permissive MIT License.
 - **Deployment**: Docker Compose with Redis and PostgreSQL. Developer-friendly SDK allows building new custom integration "pieces" in under 15 minutes.
 
 #### 6. 🐍 [Prefect](https://github.com/PrefectHQ/prefect)
-[![GitHub stars](https://img.shields.io/github/stars/PrefectHQ/prefect?style=social&color=white)](https://github.com/PrefectHQ/prefect/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/PrefectHQ/prefect?style=social&color=white)](https://github.com/PrefectHQ/prefect/stargazers)
 - **Architecture**: Modern Pythonic workflow orchestration engine transforming arbitrary Python functions into durable DAGs via simple `@flow` and `@task` decorators.
 - **Triggers**: Event-driven webhooks, work-pool queues, and CloudEvents.
 - **Licensing**: Apache 2.0 License.
 - **Deployment**: Self-hosted Prefect Server via Docker or Prefect Cloud hybrid orchestration.
 
 #### 7. ⏱️ [Temporal](https://github.com/temporalio/temporal)
-[![GitHub stars](https://img.shields.io/github/stars/temporalio/temporal?style=social&color=white)](https://github.com/temporalio/temporal/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/temporalio/temporal?style=social&color=white)](https://github.com/temporalio/temporal/stargazers)
 - **Architecture**: Distributed, scalable, durable execution platform. Code workflows in Go, Java, TypeScript, or Python without worrying about dropped events, server failures, or network timeouts.
 - **Triggers**: Asynchronous event signals, queries, gRPC calls, and durable sleep timers.
 - **Licensing**: MIT License.
 - **Deployment**: Clustered deployment backed by Cassandra, PostgreSQL, or MySQL.
 
 #### 8. 🔴 [Node-RED](https://github.com/node-red/node-red)
-[![GitHub stars](https://img.shields.io/github/stars/node-red/node-red?style=social&color=white)](https://github.com/node-red/node-red/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/node-red/node-red?style=social&color=white)](https://github.com/node-red/node-red/stargazers)
 - **Architecture**: Browser-based flow editor developed by IBM for wiring together hardware devices, APIs, and online services.
 - **Triggers**: MQTT messages, raw TCP/UDP packets, WebSockets, HTTP requests, and hardware GPIO pins.
 - **Licensing**: Apache 2.0 License.
 - **Deployment**: Ultra-lightweight runtime runnable on Raspberry Pi, industrial edge gateways, and Docker.
 
 #### 9. ⚙️ [Windmill](https://github.com/windmill-labs/windmill)
-[![GitHub stars](https://img.shields.io/github/stars/windmill-labs/windmill?style=social&color=white)](https://github.com/windmill-labs/windmill/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/windmill-labs/windmill?style=social&color=white)](https://github.com/windmill-labs/windmill/stargazers)
 - **Architecture**: High-performance developer platform written in Rust that turns scripts (Python, TypeScript, Go, Bash, SQL) into asynchronous workflows, auto-generated UIs, and scheduled jobs.
 - **Triggers**: Webhooks, cron schedules, Kafka, Postgres logical replication streams.
 - **Licensing**: AGPLv3 Community Edition / Apache 2.0 worker components.
 - **Deployment**: Extremely fast execution footprint (sub-millisecond overhead) deployable via Docker Compose or Helm.
 
 #### 10. ☸️ [Argo Workflows](https://github.com/argoproj/argo-workflows)
-[![GitHub stars](https://img.shields.io/github/stars/argoproj/argo-workflows?style=social&color=white)](https://github.com/argoproj/argo-workflows/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/argoproj/argo-workflows?style=social&color=white)](https://github.com/argoproj/argo-workflows/stargazers)
 - **Architecture**: CNCF graduated container-native workflow engine implemented as a Kubernetes Custom Resource Definition (CRD).
 - **Triggers**: Combined with **Argo Events** to trigger workflows from S3 events, webhooks, AMQP, and Kafka.
 - **Licensing**: Apache 2.0 License.
 - **Deployment**: Native Kubernetes cluster deployment.
 
 #### 11. 🎯 [Trigger.dev](https://github.com/triggerdotdev/trigger.dev)
-[![GitHub stars](https://img.shields.io/github/stars/triggerdotdev/trigger.dev?style=social&color=white)](https://github.com/triggerdotdev/trigger.dev/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/triggerdotdev/trigger.dev?style=social&color=white)](https://github.com/triggerdotdev/trigger.dev/stargazers)
 - **Architecture**: Code-first background jobs and event-driven workflow engine designed for modern TypeScript and Next.js applications.
 - **Triggers**: Webhooks, event dispatching, schedules, and long-running job steps with zero timeouts.
 - **Licensing**: Apache 2.0 License.
 - **Deployment**: Docker Compose with PostgreSQL or managed cloud platform.
 
 #### 12. 📊 [Dagster](https://github.com/dagster-io/dagster)
-[![GitHub stars](https://img.shields.io/github/stars/dagster-io/dagster?style=social&color=white)](https://github.com/dagster-io/dagster/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/dagster-io/dagster?style=social&color=white)](https://github.com/dagster-io/dagster/stargazers)
 - **Architecture**: Cloud-native data orchestrator designed around software-defined assets and declarative event triggers.
 - **Triggers**: Asset sensors, schedules, and external event streams.
 - **Licensing**: Apache 2.0 License.
 - **Deployment**: Docker, Helm chart on Kubernetes, or Dagster Cloud.
 
 #### 13. 🤖 [Automatisch](https://github.com/automatisch/automatisch)
-[![GitHub stars](https://img.shields.io/github/stars/automatisch/automatisch?style=social&color=white)](https://github.com/automatisch/automatisch/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/automatisch/automatisch?style=social&color=white)](https://github.com/automatisch/automatisch/stargazers)
 - **Architecture**: Open-source, no-code automation engine designed as an on-premise Zapier alternative prioritizing European GDPR compliance.
 - **Triggers**: App webhooks, schedules, and cloud service polling.
 - **Licensing**: AGPLv3 License.
 - **Deployment**: Single command Docker deployment.
 
 #### 14. 🛠️ [Rundeck](https://github.com/rundeck/rundeck)
-[![GitHub stars](https://img.shields.io/github/stars/rundeck/rundeck?style=social&color=white)](https://github.com/rundeck/rundeck/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/rundeck/rundeck?style=social&color=white)](https://github.com/rundeck/rundeck/stargazers)
 - **Architecture**: Runbook automation console that coordinates shell commands, scripts, and API jobs across distributed server nodes.
 - **Triggers**: Webhook event notifications, monitoring system alerts (PagerDuty, Datadog), and cron schedules.
 - **Licensing**: Apache 2.0 License.
 - **Deployment**: WAR package or Docker container with role-based access control (RBAC).
 
 #### 15. 📥 [Inngest](https://github.com/inngest/inngest)
-[![GitHub stars](https://img.shields.io/github/stars/inngest/inngest?style=social&color=white)](https://github.com/inngest/inngest/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/inngest/inngest?style=social&color=white)](https://github.com/inngest/inngest/stargazers)
 - **Architecture**: Event-driven execution engine enabling serverless background functions, durable step execution, concurrency limits, and retry queues without configuring AWS SQS or Redis.
 - **Triggers**: Custom JSON events dispatched from client SDKs (TypeScript, Python, Go).
 - **Licensing**: Apache 2.0 License.
 - **Deployment**: Self-hosted Inngest Dev Server via Docker or production Inngest Cloud.
 
 #### 16. 💡 [Platypush](https://github.com/blacklight/platypush)
-[![GitHub stars](https://img.shields.io/github/stars/blacklight/platypush?style=social&color=white)](https://github.com/blacklight/platypush/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/blacklight/platypush?style=social&color=white)](https://github.com/blacklight/platypush/stargazers)
 - **Architecture**: Python-native automation platform designed for IoT devices, smart homes, and custom event-reactive scripts.
 - **Triggers**: Sensor readings, media events, voice commands, bluetooth beacons, and webhooks.
 - **Licensing**: MIT License.
@@ -257,7 +257,7 @@ Contributions are warmly encouraged! Help keep this directory current, accurate,
 2. 🌿 **Create a new branch**: `git checkout -b add-automation-tool`
 3. 📝 **Add or update entries**:
    - For SaaS tools: include verified starting tier pricing, free tier limits, and estimated company valuation/ARR.
-   - For open-source tools: include official repo link, accurate star badge (`style=social&color=white`), license type, and tech stack.
+   - For open-source tools: include official repo link, accurate Stars_Badge (`style=social&color=white`), license type, and tech stack.
 4. 🚀 **Submit a Pull Request** with a concise description of your changes.
 
 ---
